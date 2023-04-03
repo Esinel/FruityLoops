@@ -24,7 +24,7 @@
 }
 
 .collectablesContainer {
-    padding: 4vh 3vw;
+    margin: 4vh 3vw;
     display: flex;
     flex-wrap: wrap;
     gap: 45px;

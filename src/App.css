@@ -14,11 +14,11 @@
 }
 
 .App main .main-screen {
-  flex: 1 1 75%;
+  flex: 1 1 70%;
 }
 
 .App main .side-screen {
-  flex: 1 1 25%;
+  flex: 1 1 30%;
   border-left: 1px solid white;
 }
 
