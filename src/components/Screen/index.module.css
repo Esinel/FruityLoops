@@ -1,0 +1,66 @@
+.container {
+    background-color: #ECE4F4;
+    height: 100%;
+}
+
+.sectionHeader {
+    height: 100px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-purple);
+    color: white;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+.headerPoints > span:first-child {
+    margin-right: 45px;
+} 
+
+.headerPoints > span {
+    font-size: 1.5rem;
+}
+
+.collectablesContainer {
+    padding: 4vh 3vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+    max-width: 100%;
+}
+
+.title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    text-align: left;
+    margin: 9vh 0 0 2vw;
+    color: #2D1658;
+}
+
+.completedGameScreen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    color: var(--color-text-purple);
+    font-weight: bold;
+    height: calc(100% - 140px);
+}
+
+.completedGameMessage {
+    transform: translateY(3em);
+}
+
+.confettiContainer canvas {
+    position: relative !important;
+}
+
+.message {
+    position: relative;
+    top: 200px;
+    
+}

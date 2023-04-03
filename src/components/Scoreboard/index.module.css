@@ -1,0 +1,90 @@
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: var(--color-text-purple);
+}
+
+.listTitles {
+    font-weight: bold;
+    padding: 30px 0;
+}
+
+.flex3 {
+    display: flex;
+}
+
+.flex3 > div {
+    flex: 1 1 32%;
+    padding: 15px;
+    align-self: center;
+}
+
+.flex3 > div:first-child div {
+    padding: 15px;
+}
+
+.itemsContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.itemsContainer > * {
+    margin: 30px 0;
+}
+
+.totalPerItem {
+    font-weight: bold;
+}
+
+.sectionHeader {
+    height: 100px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    background-color: var(--color-purple);
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.scoreboardFooter {
+    margin-top: auto;
+    border-top: 1px solid #CCC2D4;
+}
+
+.gameSummary {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--color-text-purple);
+}
+
+.gameSummary > div:first-child {
+    font-size: 1.5em;
+}
+
+.gameSummary button {
+    background-color: var(--color-purple);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: var(--color-yellow);
+    cursor: pointer;
+    transition: 0.15s ease-in-out;
+}
+
+.gameSummary button:hover {
+    transform: scale(1.05);
+}
+
+.gameBonuses {
+    text-align: left;
+    padding: 30px;
+    font-size: 1.5em;
+    color: var(--color-text-purple);
+}

@@ -1,5 +1,25 @@
+:root {
+  --color-purple: #4A2490;
+  --color-yellow: #FFF008;
+  --color-text-purple: #2D1659;
+}
+
 .App {
   text-align: center;
+}
+
+.App main {
+  display: flex;
+  height: 100vh;
+}
+
+.App main .main-screen {
+  flex: 1 1 75%;
+}
+
+.App main .side-screen {
+  flex: 1 1 25%;
+  border-left: 1px solid white;
 }
 
 .App-logo {

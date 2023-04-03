@@ -1,0 +1,17 @@
+.collectableItem {
+    width: 100px;
+    height: 100px;
+    border-radius: 9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    transition: 0.15s ease-in-out;
+    user-select: none;
+    font-size: 3em;
+}
+
+.collectableItem:hover {
+    cursor: pointer;
+    transform: scale(1.05)
+}
