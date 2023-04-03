@@ -40,6 +40,11 @@
     color: #2D1658;
 }
 
+.activeGameScreen {
+    height: calc(100vh - 150px);
+    overflow: scroll;
+}
+
 .completedGameScreen {
     display: flex;
     flex-direction: column;
