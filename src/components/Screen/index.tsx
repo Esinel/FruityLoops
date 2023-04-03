@@ -38,7 +38,7 @@ function Screen({ collectables, onSelectedCollectible, totalScore, totalBonusSco
                 </div>
             :
                 <div className={styles.activeGameScreen}>
-                    <div className={styles.title}>Choose your items:</div>
+                    <div className={styles.title}>Choose your fruits:</div>
                     <div className={styles.collectablesContainer}>
                         { collectables.map((collectable, index) => {
                             return (
