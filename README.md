@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with Fruity Loops
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -14,7 +14,7 @@ The game configuration can be found in './config.ts'.
 
 ### `#1 - First configure the game by editing the config.ts file - example:`
 
-```json
+```typescript
 {
 	label: '🥝', // define the fruit
 	id: '1', // define the unique id of the class of the fruit≠
